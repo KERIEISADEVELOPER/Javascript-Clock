@@ -1,7 +1,7 @@
 let hrs = document.getElementById("hrs");
 let min = document.getElementById("min");
 let sec = document.getElementById("sec");
-// Set interval to ensure current time is accurate enough
+// Set interval to ensure time is accurate
 setInterval(() => {
   let currentTime = new Date();
   hrs.innerHTML =
