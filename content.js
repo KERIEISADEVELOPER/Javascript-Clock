@@ -11,3 +11,4 @@ setInterval(() => {
   sec.innerHTML =
     (currentTime.getSeconds() < 10 ? "0" : "") + currentTime.getSeconds();
 }, 1000);
+// Comment
